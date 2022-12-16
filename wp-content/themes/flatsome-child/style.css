@@ -1,0 +1,373 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+
+
+@font-face {
+	font-family: 'SFUFutura';
+	src: url('/wp-content/themes/saffron/font/SFUFutura.eot');
+	src: url('/wp-content/themes/saffron/font/SFUFutura.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/themes/saffron/font/SFUFutura.woff2') format('woff2'),
+		url('/wp-content/themes/saffron/font/SFUFutura.woff') format('woff'),
+		url('/wp-content/themes/saffron/font/SFUFutura.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family:'SFUFuturaBold';
+	src: url('/wp-content/themes/saffron/font/SFUFuturaBold.eot');
+	src: url('/wp-content/themes/saffron/font/SFUFuturaBold.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/themes/saffron/font/SFUFuturaBold.woff2') format('woff2'),
+		url('/wp-content/themes/saffron/font/SFUFuturaBold.woff') format('woff'),
+		url('/wp-content/themes/saffron/font/SFUFuturaBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+h1,h2,h3,h4,h5,h6{  font-family: "SFUFuturaBold", sans-serif; text-transform:uppercase}.nav-small.nav>li.html {
+	font-size: 14px;
+	color: #ff7938 !important;
+}
+.header-contact-wrapper ul li a{    text-transform: none;
+	font-size: 14px;
+	color: #ff7938 !important;}
+.header-main .nav > li > a {
+	font-weight: 500;
+}
+.searchform-wrapper .submit-button{height: 40px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background: #e65322 !important;
+	width: 40px;}
+.searchform-wrapper input[type='search']{height: 40px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: none;}
+.header-main {
+	background: url(../../uploads/2019/08/bg-headerr.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+}
+.gioi-thieu-section p{margin-bottom:13px}
+.gioi-thieu-section .col{padding-bottom:0}
+.gioi-thieu-section .box .box-text h3{font-size:17px; font-weight:500; margin-bottom: 5px;
+	text-transform: none;
+	font-family: "roboto", sans-serif;
+	color: white;
+	background: #720000;
+	padding: 9px 10px;
+	background-image: linear-gradient(to right, #d82723, #e65322); margin:0}
+.gioi-thieu-section .box .box-text{padding:0; background: white;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;}
+.gioi-thieu-section .box .box-text p{margin-bottom: 0;
+	padding: 15px 10px;
+	font-size: 14px;}
+.gioi-thieu-section .box{border-radius:10px; box-shadow:2px 2px 20px #00000012}
+.gioi-thieu-section .box .box-image{border-top-left-radius:10px; border-top-right-radius:10px}
+
+.section-title b{background:none}
+.section-title-container {
+	margin-bottom: 0;
+}
+.phan-phoi-section .col{padding-bottom:0}
+.phan-phoi-section p{margin-bottom:0}
+.product-small .box-image:hover::before{
+	-webkit-animation:shine .75s;animation:shine .75s
+}
+@-webkit-keyframes shine{
+	100%{left:125%}
+}
+@keyframes shine{
+	100%{left:125%}
+}
+.product-small .box-image::before{
+	position:absolute;
+	top:0;
+	left:-75%;
+	z-index:2;
+	display:block;
+	content:'';
+	width:50%;
+	height:100%;
+	background:-webkit-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+	background:linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+	-webkit-transform:skewX(-25deg);transform:skewX(-25deg)
+}
+.product-small .box-image .image-cover{border-radius:10px}
+.product-small .price .amount{    font-size: 20px;
+	color: #ff8300;
+	font-weight: normal;
+}
+.product-small .box-image{    box-shadow: 2px 2px 20px #00000026;
+	border-radius: 10px;}
+.san-pham-section .col{padding-bottom:0}
+.gioi-thieu-section .heading {
+	position: absolute;
+	font-size: 300px;
+	color: rgba(37,37,37,.05);
+	right: 10%;
+	top: 55px;
+	line-height: 300px;
+	font-family: "UTM Bebas";
+	font-size: 180px;
+}
+.phan-hoi-section .icon-box .icon-box-text{padding: 15px 15px 15px 30px;
+	background: #f9f7ff; height:225px; overflow:hidden;
+	border-radius: 10px;}
+.phan-hoi-section .icon-box .icon-box-img img{border:2px solid white}
+.nut-xem-chi-tiet{font-weight:normal; letter-spacing:0}
+.phan-hoi-section .icon-box .icon-box-img{
+	margin-right: -13px; margin-top:20px}
+.phan-hoi-section .col, .tin-tuc-section .col{padding-bottom:0;}
+.phan-hoi-section .icon-box .icon-box-text p{margin-bottom:0}
+.phan-hoi-section .icon-box .icon-box-img img{padding-top:0; border-radius:99%}
+.product-small .produc-title{margin-bottom:8px}
+.box-blog-post .is-divider{display:none}
+.list-post .post-item .post-title{    text-transform: none;
+	font-family: "roboto", sans-serif;
+	font-size: 22px;
+	margin-bottom: 10px;}
+.tin-tuc-section .list-post-2{background: #5d00007d;
+	padding: 20px;
+	border-radius: 10px;    height: 177px;
+	overflow: auto;
+}
+.list-post-2 .post-item .box-text{padding:0}
+.list-post-2 .post-item .post-title{text-transform: none;
+	font-family: "roboto", sans-serif;
+	padding-left: 25px;
+	background: url(../../uploads/2019/08/dot-icon.jpg);
+	margin-bottom: 9px;
+	background-repeat: no-repeat;
+	background-size: 5px;
+	background-position-y: 6px;
+	background-position-x: 10px;}
+.list-post-2 .post-item{padding-bottom:0px}
+.list-post .post-item{padding-bottom:0 !important}
+.list-post .post-item .box-image .image-cover{border-radius:10px}
+.list-post .post-item .box-text{border-bottom-left-radius:10px; border-bottom-right-radius:10px}
+.list-post-2 .post-item .post-title:hover{text-decoration:underline; color:#ff9800}
+.absolute-footer{    font-size: 12px;
+}.page-wrapper {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}.is-divider{display:none}
+.blog-single .entry-meta{text-transform: none;
+	font-size: 14px;
+	letter-spacing: 0;
+	color: gray;}.entry-content {
+		padding-top: 0;
+		padding-bottom: 0;
+}
+.blog-single .entry-content h2{font-size:21px;}
+.blog-single .entry-content h3{font-size:20px;}
+.blog-single .entry-content h4{font-size:19px;}
+.blog-single .entry-content h5{font-size:18px;}
+.blog-single .entry-content h6{font-size:16px;}
+.wp-caption{text-align:center; margin-bottom:10px}.blog-single .blog-share {
+	text-align: left!important;
+}.bai-viet-lien-quan {
+	margin-top: 20px;
+}.bai-viet-lien-quan h2 {margin-bottom:15px; color: #e65322;
+	font-family: "SFUFuturabold", sans-serif;
+	text-transform: uppercase;
+	font-size: 19px;
+}.bai-viet-lien-quan ul {
+	margin-bottom: 0;
+	display: inline-block;
+	width: 100%;
+}.bai-viet-lien-quan ul li {
+	list-style: none;
+	width: 33.33%;
+	float: left;
+	padding-left: 4px;
+	padding-right: 5px;
+}.bai-viet-lien-quan ul li .box-image img {
+	height: 180px;
+	border-radius: 6px;
+	object-fit: cover;
+	object-position: center;
+}.bai-viet-lien-quan ul li h3 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	margin-top: 7px;
+	line-height: 21px;
+	font-family: "roboto", sans-serif;
+	text-transform: none;
+}.thong-tin-tac-gia {
+	background: #ffecea;
+	padding: 15px;
+	border-radius: 5px;
+	display: inline-block;
+	width: 100%;
+	clear: both;
+	border: 1px dashed #eabeb9;
+}.thong-tin-tac-gia .left {
+	width: 10%;
+	float: left;
+	display: inline-block;
+}.thong-tin-tac-gia .right {
+	padding-left: 10px;
+	width: 90%;
+	float: right;
+	display: inline-block;
+	text-align: left;
+}.thong-tin-tac-gia h4 {
+	font-family: "SFUFuturabold", sans-serif;
+	color: #b70000;
+	text-transform: uppercase;
+	font-size: 19px;
+	margin-bottom: 4px;
+}.thong-tin-tac-gia .right p {
+	color: #720000;
+	margin-bottom: 0;
+	font-size: 15px;
+}#toc_container.toc_white {
+	background: #ffecea;
+}#toc_container { 
+	border: 1px solid #eabeb9;}
+.thong-tin-lien-he {display: inline-block;
+	background: #FFF8E1;
+	padding: 15px;
+	border-radius: 3px;
+	margin-bottom: 0px;
+	border: 1px dashed #ffd685;
+}.thong-tin-lien-he .thong-tin {
+	margin-bottom: 0;
+	width: 50%;
+	float: left;
+	display: inline-block;
+}.thong-tin-lien-he .right {
+	width: 50%;
+	float: right;
+	display: inline-block;
+	background: #ffffff;
+	padding: 10px;
+	color: #ff5400;
+	font-size: 15px;
+}.thong-tin-lien-he .clearboth {
+	clear: both;
+}
+.meta-related ul li{    margin-bottom: 5px;
+	font-size: 15px;
+	color: #e65322;}
+.meta-related ul{margin-bottom:0}
+.meta-related{background: #FFF3E0;
+	padding: 15px;
+	border-radius: 5px;
+	margin-bottom: 20px;}
+.thong-tin .des {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 15px;
+}.thong-tin-lien-he ul {margin-bottom:0; font-size:15px;
+	margin-left: 20px;
+}
+.wp-caption .wp-caption-text{background:white; margin-bottom:0}
+.blog-single .entry-content h2, .blog-single .entry-content h3, .blog-single .entry-content h4, .blog-single .entry-content h6{text-transform:none; font-family: "roboto", sans-serif}
+.blog-single .entry-title{font-family: "roboto", sans-serif;
+	text-transform: none;}
+span.widget-title{text-transform: none;font-weight:normal;
+	font-size: 22px;
+	letter-spacing: 0;
+	display: block;
+	margin-bottom: 10px;}
+.recent-blog-posts a{font-size:14px}
+.recent-blog-posts-li .mr-half .badge-inner{border-radius:99%}
+.product_list_widget li span.amount{font-weight:normal; color:#e65322}
+form{margin-bottom:0}
+.product_list_widget li a{font-size:14px}
+.widget .is-divider{display:none}
+.blog-archive .post-item {padding-bottom:10px}
+.blog-archive .post-item a:hover{color:black}
+.blog-archive .post-item .post-title:hover{color: #720000;}
+.blog-archive .post-item .post-title{    margin-bottom: 10px;
+	font-family: "roboto", sans-serif;
+	font-size: 16px;
+	text-transform: none;}
+.blog-archive .large-9 .badge{display:none}
+#breadcrumbs{font-size:14px; margin-bottom:10px}
+.blog-archive .archive-page-header .large-12{padding-bottom:10px; text-align:left}
+.footer-section .col, .truyen-thong-section .col{padding-bottom:0}
+.truyen-thong-section .tabbed-content ul li{margin:0 10px !important}
+.blog-archive .large-3, .blog-single .large-3{padding-left:0}
+.truyen-thong-section h3{text-transform:none; font-family:"roboto", sans-serif; margin-bottom:10px !important }
+.single-product .product-info h1.product-title{    font-family: "roboto", sans-serif;
+	text-transform: none;}
+.single-product .price-wrapper .price span.amount{color:#e65322;}
+.single-product .product-short-description, .product_meta>span{font-size:14px}
+.mfp-content .meta-related ul{margin-left:20px}
+.devvn-popup-title, .popup-customer-info-group .devvn-order-btn{background:#8e0001}
+.single-product .large-3{padding-left:0; border-left:none; padding-bottom:0}
+.single-product .product-info{border-right:none; padding-bottom:0}
+.page-right-sidebar .large-9{border-right:none}
+.related h3{    margin-left: 0;
+	letter-spacing: 0;}
+.page-right-sidebar .large-3{padding-left:0}
+.woocommerce-tabs .meta-related{display:None}
+a.back-to-top{background:#e65322 !important; border:none !important; color:white}
+p.form-row-first, p.form-row-last{width:100%}
+.woocommerce-tabs ul li.active a{color: #e65322;}
+.woocommerce-tabs ul li a{    font-size: 20px;
+	color: #484848;
+	text-transform: none;
+	letter-spacing: 0;}
+a.devvn_buy_now_style{margin-bottom:10px}
+h1.entry-title.mb {
+	margin-bottom: 20px;
+	font-size: 20px;
+	letter-spacing: 0;
+}
+.truyen-thong-section .tabbed-content ul li.active a{color:#e65322}
+
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+
+	.nav-small.nav>li.html{text-align:center; font-size:13px}
+	.off-canvas-left.mfp-ready .mfp-content{background:#9c0001}.off-canvas:not(.off-canvas-center) .nav-vertical li>a {
+		padding-left: 20px;
+		text-transform: none;
+		font-size: 16px;
+		color: white;
+		letter-spacing: 0;
+		font-weight: normal;
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}.nav-sidebar.nav-vertical>li+li {
+		border-top: 1px solid #800001;
+		border-bottom: 2px solid #ab0e0f;
+	}
+	.gioi-thieu-section .col.medium-3{flex-basis:50%; max-width:50%}
+	.gioi-thieu-section .col.medium-3:nth-child(2n+1){padding-left:6px;}
+	.gioi-thieu-section .col.medium-3:nth-child(2n+2){padding-right:6px;}
+	.gioi-thieu-section .box .box-text h3{font-size:14px; padding: 10px 5px;}
+	.gioi-thieu-section .box{margin-bottom:12px}
+	.phan-phoi-section .col .col-inner .img{margin:0 auto}
+	.list-sp .col:nth-child(2n+1){padding-right:7px;}
+	.list-sp .col:nth-child(2n+2){padding-left:7px;}
+	.phan-hoi-section .col, .tin-tuc-section .col{padding-bottom:15px}
+	.list-post .post-item .post-title{font-size:16px; margin-bottom:0}
+	.list-post .post-item .from_the_blog_excerpt {display:None}
+	.phan-phoi-section .col .col-inner, .phan-phoi-section h3 {text-align:center !important}
+	.truyen-thong-section .icon-box .icon-box-img{display:None}.truyen-thong-section h3{margin-top:15px}
+	.footer-section .medium-3{flex-basis:100%; max-width:100%}
+	.blog-archive .post-item{flex-basis:50%; max-width:50%}
+	.blog-archive .large-3, .blog-single .large-3{padding-left:15px}
+	.blog-archive .post-item{padding-left:7px; padding-right:7px}.thong-tin-lien-he .thong-tin, .thong-tin-lien-he .right, .thong-tin-tac-gia .left, .thong-tin-tac-gia .right{width:100%}.bai-viet-lien-quan ul li{width:50%}.bai-viet-lien-quan ul li .box-image img{height:90px}.bai-viet-lien-quan ul li h3 {
+		font-size: 15px;
+		height: 40px;
+		overflow: hidden;
+	}
+	.archive h1.shop-page-title{font-size:24px}
+}
